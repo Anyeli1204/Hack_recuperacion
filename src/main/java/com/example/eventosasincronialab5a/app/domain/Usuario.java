@@ -1,4 +1,4 @@
-package com.example.eventosasincronialab5a.app;
+package com.example.eventosasincronialab5a.app.domain;
 
 import jakarta.persistence.*;
 import lombok.Data;

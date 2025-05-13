@@ -1,5 +1,8 @@
-package com.example.eventosasincronialab5a.app;
+package com.example.eventosasincronialab5a.app.listener;
 
+import com.example.eventosasincronialab5a.app.event.OrderCreatedEvent;
+import com.example.eventosasincronialab5a.app.domain.Stock;
+import com.example.eventosasincronialab5a.app.StockRepository;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

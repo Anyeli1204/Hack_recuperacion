@@ -1,5 +1,10 @@
-package com.example.eventosasincronialab5a.app;
+package com.example.eventosasincronialab5a.app.controller;
 
+import com.example.eventosasincronialab5a.app.domain.Pedido;
+import com.example.eventosasincronialab5a.app.PedidoRepository;
+import com.example.eventosasincronialab5a.app.domain.Usuario;
+import com.example.eventosasincronialab5a.app.UsuarioRepository;
+import com.example.eventosasincronialab5a.app.event.OrderCreatedEvent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.web.bind.annotation.PostMapping;

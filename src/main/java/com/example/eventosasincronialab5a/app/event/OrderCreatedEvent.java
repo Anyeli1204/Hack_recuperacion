@@ -1,4 +1,4 @@
-package com.example.eventosasincronialab5a.app;
+package com.example.eventosasincronialab5a.app.event;
 
 import org.springframework.context.ApplicationEvent;
 import java.util.List;

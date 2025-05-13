@@ -1,4 +1,4 @@
-package com.example.eventosasincronialab5a.app;
+package com.example.eventosasincronialab5a.app.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
